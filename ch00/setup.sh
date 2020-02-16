@@ -65,9 +65,9 @@ echo 'opa Done.'
 sudo apt-get install -y jq mysql-client
 echo 'jq, mysql-client Done.'
 
-sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
-sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
-sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+#sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+#sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
+#sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
 git clone https://github.com/ahmetb/kubectx.git ~/.kubectx
 COMPDIR=$(pkg-config --variable=completionsdir bash-completion)
